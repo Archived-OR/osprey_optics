@@ -12,6 +12,7 @@
 		E153A2DA2BD21DF4009C6C87 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153A2D42BD21DF3009C6C87 /* ARViewModel.swift */; };
 		E153A2DB2BD21DF4009C6C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E153A2D52BD21DF3009C6C87 /* Assets.xcassets */; };
 		E153A2DC2BD21DF4009C6C87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153A2D62BD21DF3009C6C87 /* ContentView.swift */; };
+		E153A2DE2BD224E9009C6C87 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153A2DD2BD224E9009C6C87 /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E153A2D42BD21DF3009C6C87 /* ARViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 		E153A2D52BD21DF3009C6C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E153A2D62BD21DF3009C6C87 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E153A2DD2BD224E9009C6C87 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 		E16FC7552BCF6F9C00FF918E /* OspreyOptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OspreyOptics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,8 +50,9 @@
 				E153A2D22BD21DF3009C6C87 /* Preview Content */,
 				E153A2D32BD21DF3009C6C87 /* AppDelegate.swift */,
 				E153A2D42BD21DF3009C6C87 /* ARViewModel.swift */,
-				E153A2D52BD21DF3009C6C87 /* Assets.xcassets */,
 				E153A2D62BD21DF3009C6C87 /* ContentView.swift */,
+				E153A2DD2BD224E9009C6C87 /* BluetoothManager.swift */,
+				E153A2D52BD21DF3009C6C87 /* Assets.xcassets */,
 			);
 			path = OspreyOptics;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				E153A2D92BD21DF4009C6C87 /* AppDelegate.swift in Sources */,
 				E153A2DA2BD21DF4009C6C87 /* ARViewModel.swift in Sources */,
+				E153A2DE2BD224E9009C6C87 /* BluetoothManager.swift in Sources */,
 				E153A2DC2BD21DF4009C6C87 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +283,7 @@
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To connect to the rover";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,6 +315,7 @@
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To connect to the rover";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

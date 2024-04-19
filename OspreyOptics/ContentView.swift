@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Lunar
+//  OspreyOptics
 //
 //  Created by Andreas Ink on 4/16/24.
 //
@@ -16,7 +16,7 @@ struct ContentView : View {
             .environmentObject(viewModel)
             .overlay {
                 Button {
-                    viewModel.detectSurfaceDrop()
+                    viewModel.detectSurfaceChange()
                 } label: {
                     Text(viewModel.state)
                         .font(.title)
@@ -34,7 +34,9 @@ struct ContentView : View {
 struct ARViewContainer: UIViewRepresentable {
     @EnvironmentObject var viewModel: ARViewModel
     func makeUIView(context: Context) -> ARView {
-        viewModel.startLunar()
+        
+        viewModel.startOptic()
+        
         return viewModel.arView
         
     }

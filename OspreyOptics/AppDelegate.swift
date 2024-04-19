@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Lunar
+//  OspreyOptics
 //
 //  Created by Andreas Ink on 4/16/24.
 //
@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
-
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = UIHostingController(rootView: contentView)
