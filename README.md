@@ -3,4 +3,4 @@
 
 ### Technical notes
 #### Battery Consumption
-- When used periodically with mesh scene reconstruction and plane detection on, an iPad Pro lost less than 1% of batter life
+- When used periodically with mesh scene reconstruction and plane detection on and not moving, an iPad Pro lost less than 1% of battery life
