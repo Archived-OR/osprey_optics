@@ -1,5 +1,5 @@
 # osprey_optics
-## An iOS app that uses an iPad Pro with LiDAR and ARKit to understand the environment including detecting rocks and craters.
+## An iOS app that uses an iPad Pro with LiDAR and ARKit to detect rocks and craters.
 
 ### Technical notes
 #### Battery Consumption
