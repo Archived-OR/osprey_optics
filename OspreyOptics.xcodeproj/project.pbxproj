@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E16FC7592BCF6F9C00FF918E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC7582BCF6F9C00FF918E /* AppDelegate.swift */; };
-		E16FC75B2BCF6F9C00FF918E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FC75A2BCF6F9C00FF918E /* ContentView.swift */; };
-		E16FC75D2BCF6F9E00FF918E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16FC75C2BCF6F9E00FF918E /* Assets.xcassets */; };
-		E16FC7602BCF6F9E00FF918E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16FC75F2BCF6F9E00FF918E /* Preview Assets.xcassets */; };
+		E153A2D82BD21DF4009C6C87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E153A2D12BD21DF3009C6C87 /* Preview Assets.xcassets */; };
+		E153A2D92BD21DF4009C6C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153A2D32BD21DF3009C6C87 /* AppDelegate.swift */; };
+		E153A2DA2BD21DF4009C6C87 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153A2D42BD21DF3009C6C87 /* ARViewModel.swift */; };
+		E153A2DB2BD21DF4009C6C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E153A2D52BD21DF3009C6C87 /* Assets.xcassets */; };
+		E153A2DC2BD21DF4009C6C87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153A2D62BD21DF3009C6C87 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E16FC7552BCF6F9C00FF918E /* Lunar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E16FC7582BCF6F9C00FF918E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E16FC75A2BCF6F9C00FF918E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E16FC75C2BCF6F9E00FF918E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E16FC75F2BCF6F9E00FF918E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E153A2D12BD21DF3009C6C87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E153A2D32BD21DF3009C6C87 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E153A2D42BD21DF3009C6C87 /* ARViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		E153A2D52BD21DF3009C6C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E153A2D62BD21DF3009C6C87 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E16FC7552BCF6F9C00FF918E /* OspreyOptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OspreyOptics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +34,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E153A2D22BD21DF3009C6C87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E153A2D12BD21DF3009C6C87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E153A2D72BD21DF3009C6C87 /* OspreyOptics */ = {
+			isa = PBXGroup;
+			children = (
+				E153A2D22BD21DF3009C6C87 /* Preview Content */,
+				E153A2D32BD21DF3009C6C87 /* AppDelegate.swift */,
+				E153A2D42BD21DF3009C6C87 /* ARViewModel.swift */,
+				E153A2D52BD21DF3009C6C87 /* Assets.xcassets */,
+				E153A2D62BD21DF3009C6C87 /* ContentView.swift */,
+			);
+			path = OspreyOptics;
+			sourceTree = "<group>";
+		};
 		E16FC74C2BCF6F9C00FF918E = {
 			isa = PBXGroup;
 			children = (
-				E16FC7572BCF6F9C00FF918E /* Lunar */,
+				E153A2D72BD21DF3009C6C87 /* OspreyOptics */,
 				E16FC7562BCF6F9C00FF918E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,36 +65,17 @@
 		E16FC7562BCF6F9C00FF918E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E16FC7552BCF6F9C00FF918E /* Lunar.app */,
+				E16FC7552BCF6F9C00FF918E /* OspreyOptics.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E16FC7572BCF6F9C00FF918E /* Lunar */ = {
-			isa = PBXGroup;
-			children = (
-				E16FC7582BCF6F9C00FF918E /* AppDelegate.swift */,
-				E16FC75A2BCF6F9C00FF918E /* ContentView.swift */,
-				E16FC75C2BCF6F9E00FF918E /* Assets.xcassets */,
-				E16FC75E2BCF6F9E00FF918E /* Preview Content */,
-			);
-			path = Lunar;
-			sourceTree = "<group>";
-		};
-		E16FC75E2BCF6F9E00FF918E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E16FC75F2BCF6F9E00FF918E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E16FC7542BCF6F9C00FF918E /* Lunar */ = {
+		E16FC7542BCF6F9C00FF918E /* OspreyOptics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E16FC7632BCF6F9E00FF918E /* Build configuration list for PBXNativeTarget "Lunar" */;
+			buildConfigurationList = E16FC7632BCF6F9E00FF918E /* Build configuration list for PBXNativeTarget "OspreyOptics" */;
 			buildPhases = (
 				E16FC7512BCF6F9C00FF918E /* Sources */,
 				E16FC7522BCF6F9C00FF918E /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Lunar;
+			name = OspreyOptics;
 			productName = Lunar;
-			productReference = E16FC7552BCF6F9C00FF918E /* Lunar.app */;
+			productReference = E16FC7552BCF6F9C00FF918E /* OspreyOptics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E16FC7502BCF6F9C00FF918E /* Build configuration list for PBXProject "Lunar" */;
+			buildConfigurationList = E16FC7502BCF6F9C00FF918E /* Build configuration list for PBXProject "OspreyOptics" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E16FC7542BCF6F9C00FF918E /* Lunar */,
+				E16FC7542BCF6F9C00FF918E /* OspreyOptics */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16FC7602BCF6F9E00FF918E /* Preview Assets.xcassets in Resources */,
-				E16FC75D2BCF6F9E00FF918E /* Assets.xcassets in Resources */,
+				E153A2DB2BD21DF4009C6C87 /* Assets.xcassets in Resources */,
+				E153A2D82BD21DF4009C6C87 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16FC75B2BCF6F9C00FF918E /* ContentView.swift in Sources */,
-				E16FC7592BCF6F9C00FF918E /* AppDelegate.swift in Sources */,
+				E153A2D92BD21DF4009C6C87 /* AppDelegate.swift in Sources */,
+				E153A2DA2BD21DF4009C6C87 /* ARViewModel.swift in Sources */,
+				E153A2DC2BD21DF4009C6C87 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +275,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lunar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OspreyOptics/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,7 +306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lunar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OspreyOptics/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E16FC7502BCF6F9C00FF918E /* Build configuration list for PBXProject "Lunar" */ = {
+		E16FC7502BCF6F9C00FF918E /* Build configuration list for PBXProject "OspreyOptics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E16FC7612BCF6F9E00FF918E /* Debug */,
@@ -338,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E16FC7632BCF6F9E00FF918E /* Build configuration list for PBXNativeTarget "Lunar" */ = {
+		E16FC7632BCF6F9E00FF918E /* Build configuration list for PBXNativeTarget "OspreyOptics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E16FC7642BCF6F9E00FF918E /* Debug */,
